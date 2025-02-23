@@ -4,42 +4,16 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const products = [
-  {
-    id: 1,
-    name: "METALL",
-    image: "/images/metall.png", 
-    description: "Burnished Brush",
-  },
-  {
-    id: 2,
-    name: "OSLO",
-    image: "/images/oslo.png", 
-    description: "Griffe aus Edelstahl, Lack und Glas – Griffausschnitt farbig wählbar",
-  },
-  {
-    id: 3,
-    name: "GROOVE",
-    image: "/images/groove.png", 
-    description: "Lineare Struktur – ein Spiel mit Licht und Schatten",
-  },
-  {
-    id: 4,
-    name: "SIENA",
-    image: "/images/siena.png", 
-    description: "Moderne Landhausfronten – eine zeitgemäße Variante traditioneller Landhausstil-Architektur",
-  },
-  {
-    id: 5,
-    name: "STONE-VENEER",
-    image: "/images/stone-veneer.png", 
-    description: "Ein Hauch von Stein – jedes Blatt ein Unikat",
-  },
-  {
-    id: 6,
-    name: "BETON",
-    image: "/images/beton.png", 
-    description: "Beton und Holz – in Kombination mit Cover-Griffleiste",
-  },
+  { id: 1, name: "KOFFER 99/38", description: "Schlichte Lackfront in Hochglanz oder Supermatt für puristisches Design.", image: "/images/koffer.jpg" },
+  { id: 2, name: "KRETA", description: "Rechteckiger Griffausschnitt für ergonomische Handhabung mit massiver Abdeckplatte.", image: "/images/kreta.jpg" },
+  { id: 3, name: "OSLO", description: "Eckiger Griffausschnitt mit Glas-Einleger für modernen Kontrast.", image: "/images/oslo.jpg" },
+  { id: 4, name: "PADUA", description: "Lackierte Front mit integrierter Griffleiste und sanft laufenden Vollauszügen.", image: "/images/padua.jpg" },
+  { id: 5, name: "ALUMINIUMGRIFFLEISTE", description: "Durchgehende, flexible Griffleiste in Edelstahloptik oder lackiert.", image: "/images/aluminiumgriffleiste.jpg" },
+  { id: 6, name: "FÖHR", description: "Moderne Rahmenfront mit sanfter Farbgebung für Landhausstil.", image: "/images/foehr.jpg" },
+  { id: 7, name: "MALMÖ", description: "Flächige Rahmenfront mit eleganter Facette in Hochglanz oder Supermatt.", image: "/images/malmoe.jpg" },
+  { id: 8, name: "GROOVE", description: "Senkrechte Nuten für eine geradlinige, moderne Optik mit Push-To-Open.", image: "/images/groove.jpg" },
+  { id: 9, name: "METALLOPTIK", description: "Effektlackoberfläche mit echten Metallpigmenten für edlen Charakter.", image: "/images/metalloptik.jpg" },
+  { id: 10, name: "STONE VENEER", description: "Echtes Steinfurnier aus Schiefergestein mit einzigartiger Oberflächenstruktur.", image: "/images/stone-veneer.jpg" }
 ];
 
 

@@ -3,33 +3,28 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="/images/hero_bg.jpg"
-          alt="Wolter Lackfronten Küche"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
-
+    <section
+      className="relative h-screen flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/hero_bg.jpg')" }}
+    >
       {/* Content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-white">
+      <div className="absolute inset-0 bg-black/60 z-0" /> {/* Dunkler Overlay für bessere Lesbarkeit */}
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white relative z-10">
         <div className="max-w-7xl animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-6  max-w-screen-lg break-words font-roboto">
-            Maßgeschneiderte Küchenfronten von Wolter Lackfronten
+          <h1 className="mb-4">
+            Badmöbel, so einzigartig wie Sie
           </h1>
 
-          <p className=" text-white">
-            Entdecken Sie exklusive Küchenfronten von Wolter Lackfronten –{' '}
+          <p className="text-white leading-relaxed mb-4">
+            Gestalten Sie Ihr Badezimmer mit WOBA – maßgeschneiderte Möbel, die Ihre Wünsche perfekt widerspiegeln.
             <br />
-            Qualität und Innovation für Ihre Traumküche im Küchenstudio Bergheim
+            Perfekt angepasst, in jedem Detail.
           </p>
 
           <a href="/#beratung">
-            <Button className="bg-[#469CE9] hover:bg-[#469CE9]/80 text-white px-6 py-3 mt-9">
-              Beratungstermin buchen
+            <Button className="bg-[#333] hover:bg-[#333] text-white px-6 py-3 mt-2">
+              Beratung anfordern
             </Button>
           </a>
         </div>
